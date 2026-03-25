@@ -48,7 +48,7 @@ Camera (1280×720 @ 30fps)
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/SciencePrj25.git
+git clone https://github.com/anchit-kumar/triway-communication.git)
 cd SciencePrj25
 git lfs pull   # downloads the ML model files
 ```
