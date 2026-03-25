@@ -1,0 +1,38 @@
+Keypoint based model dection (Regular CNN lowkey failed hard):
+
+convert data_set of images into nubmers convert_data.py
+
+WORKS LET GOOOO
+
+test_image_keypoints flask web app captures camera on /dev/video0 gives predictions real time
+run command python3.10 file.py --host 0.0.0.0 --port 8080
+http://10.10.10.2:8080 or whatever the ip is
+
+
+training in train_scratch
+
+
+root@anchit-desktop:/workspace/srcTrue# python3 test.py
+Expander @ 0x21: IODIRA=11111111, IODIRB=11111111, GPIOA=01001011, GPIOB=00000000
+Expander @ 0x23: IODIRA=11111111, IODIRB=11111111, GPIOA=00000000, GPIOB=00111111
+
+ts is like first num is A7 then goes to A0 revers order
+
+https://pypi.org/project/gTTS
+text to speech
+
+mpg123 audio.mp3 to play(speaker is edefaulted to oen I soldered)
+
+>>> from gtts import gTTS
+>>> tts = gTTS('hello')
+>>> tts.save('hello.mp3')
+Python
+gtts-cli 'hello' --output hello.mp3 (Cmd)
+
+To-Do:
+
+implment deaf
+fix bug after non-I sent message no notification for blind
+
+Links:
+https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker

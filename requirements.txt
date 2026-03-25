@@ -1,0 +1,20 @@
+# ── Core ML / CV ─────────────────────────────────────────────────────────────
+# NOTE: On Jetson, TensorFlow must be the NVIDIA-patched build (nv24.8).
+# Do NOT replace with a stock pip tensorflow build — it will break CUDA/Tegra.
+# Install the Jetson wheel from: https://developer.nvidia.com/embedded/downloads
+# tensorflow==2.16.1+nv24.8  (installed separately on Jetson)
+mediapipe
+opencv-python==4.11.0.86
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.15.3
+
+# ── Hardware I/O ──────────────────────────────────────────────────────────────
+evdev          # USB keyboard input via Linux evdev
+smbus2         # I2C bus communication (MCP23017 GPIO expanders)
+
+# ── Web demo ──────────────────────────────────────────────────────────────────
+flask
+
+# ── Dataset download (optional) ───────────────────────────────────────────────
+kagglehub

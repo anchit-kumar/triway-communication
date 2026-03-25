@@ -1,0 +1,40 @@
+# ── Virtual environment ──────────────────────────────────────────────────────
+venv/
+
+# ── Training outputs (generated — run convert_data.py to recreate) ───────────
+src/training/outputs/
+
+# ── Training dataset (download via src/training/downloadataset.py) ───────────
+data/ASL_Alphabet_Dataset/
+Data/
+
+# ── ML model binaries (tracked via Git LFS — see .gitattributes) ─────────────
+src/models/*.keras
+src/models/*.task
+
+# ── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Runtime artifacts ─────────────────────────────────────────────────────────
+src/app/chat.txt
+src/app/audio/
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ── Python packaging ──────────────────────────────────────────────────────────
+*.egg-info/
+dist/
+build/
