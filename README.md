@@ -147,7 +147,7 @@ SciencePrj25/
 ├── data/                       # Dataset (gitignored — see data/README.md)
 ├── requirements.txt
 ├── LICENSE
-└── CLAUDE.MD                   # Developer reference
+└── AGENTS.md                   # Codex project memory
 ```
 
 ---

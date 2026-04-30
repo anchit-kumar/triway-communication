@@ -1,3 +1,9 @@
+# Legacy Note
+
+Codex project context has been migrated to `AGENTS.md`. Keep this file only as
+legacy Claude reference material; update `AGENTS.md` first for future Codex
+sessions.
+
 # ASL Communication System
 
 ## Purpose
